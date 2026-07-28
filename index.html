@@ -1,26 +1,346 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Google tag (gtag.js) -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="LearnSphere AI is an AI-powered online learning platform for modern skill growth." />
+    <meta name="theme-color" content="#2563eb" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="LearnSphere AI | AI-Powered Online Learning Platform" />
+    <meta property="og:description" content="Learn faster with adaptive AI guidance, practical courses, and smart coaching." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourusername.github.io/dummy_website/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="LearnSphere AI | AI-Powered Online Learning Platform" />
+    <meta name="twitter:description" content="Learn faster with adaptive AI guidance, practical courses, and smart coaching." />
+    <link rel="canonical" href="./" />
+    <!-- Replace the placeholder Measurement ID below with your real GA4 Measurement ID when you have one. -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KLDRDFNF03"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
       gtag('js', new Date());
-
       gtag('config', 'G-KLDRDFNF03');
     </script>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dummy Website</title>
+    <title>LearnSphere AI | AI-Powered Online Learning Platform</title>
     <link rel="stylesheet" href="styles.css" />
-
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <main class="card">
-      <h1>Welcome to the Dummy Website</h1>
-      <p>This is a very simple page for demonstration purposes.</p>
-      <button>Click me</button>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <!-- Sticky Navigation -->
+    <header class="site-header">
+      <nav class="nav-bar" aria-label="Primary navigation">
+        <a class="logo" href="#home">LearnSphere AI</a>
+        <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-navigation">☰</button>
+        <div class="nav-links" id="primary-navigation">
+          <a href="#home">Home</a>
+          <a href="#features">Features</a>
+          <a href="#courses">Courses</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">🌙</button>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <main id="main-content">
+      <section class="hero-section" id="home">
+        <div class="hero-content">
+          <p class="eyebrow">AI-powered learning for ambitious teams</p>
+          <h1>Learn faster with personalized AI guidance.</h1>
+          <p class="hero-description">Discover adaptive lessons, smart coaching, and practical projects designed to help you grow in the modern world.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#pricing">Get Started</a>
+            <a class="btn btn-secondary" href="#courses">Watch Demo</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features -->
+      <section id="features" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Features</p>
+          <h2>Everything you need to learn smarter</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>Adaptive Learning</h3>
+            <p>Lessons adjust to your pace and skill level in real time.</p>
+          </article>
+          <article class="feature-card">
+            <h3>AI Coach</h3>
+            <p>Get instant guidance, feedback, and explanations as you learn.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Live Projects</h3>
+            <p>Practice with real-world tasks and build portfolio-ready work.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Progress Insights</h3>
+            <p>Track milestones and stay motivated with clear analytics.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Community Support</h3>
+            <p>Collaborate with peers and mentors in a thriving learning space.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Flexible Access</h3>
+            <p>Learn anywhere, anytime with mobile-friendly lessons and content.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Courses -->
+      <section id="courses" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Courses</p>
+          <h2>Popular courses to jumpstart your growth</h2>
+        </div>
+        <div class="course-grid">
+          <article class="course-card">
+            <div class="course-image" aria-label="Course image placeholder"></div>
+            <h3>AI for Product Teams</h3>
+            <p class="course-instructor">Mina Chen</p>
+            <p class="course-rating">⭐ 4.9</p>
+            <p class="course-price">$49</p>
+            <button type="button">Enroll</button>
+          </article>
+          <article class="course-card">
+            <div class="course-image" aria-label="Course image placeholder"></div>
+            <h3>Prompt Engineering Essentials</h3>
+            <p class="course-instructor">Daniel Brooks</p>
+            <p class="course-rating">⭐ 4.8</p>
+            <p class="course-price">$39</p>
+            <button type="button">Enroll</button>
+          </article>
+          <article class="course-card">
+            <div class="course-image" aria-label="Course image placeholder"></div>
+            <h3>Data Storytelling with AI</h3>
+            <p class="course-instructor">Sara Patel</p>
+            <p class="course-rating">⭐ 4.7</p>
+            <p class="course-price">$59</p>
+            <button type="button">Enroll</button>
+          </article>
+          <article class="course-card">
+            <div class="course-image" aria-label="Course image placeholder"></div>
+            <h3>Machine Learning Foundations</h3>
+            <p class="course-instructor">Jonah Rivera</p>
+            <p class="course-rating">⭐ 4.9</p>
+            <p class="course-price">$69</p>
+            <button type="button">Enroll</button>
+          </article>
+          <article class="course-card">
+            <div class="course-image" aria-label="Course image placeholder"></div>
+            <h3>Designing Learning Experiences</h3>
+            <p class="course-instructor">Aisha Morgan</p>
+            <p class="course-rating">⭐ 4.6</p>
+            <p class="course-price">$45</p>
+            <button type="button">Enroll</button>
+          </article>
+          <article class="course-card">
+            <div class="course-image" aria-label="Course image placeholder"></div>
+            <h3>Leadership with AI Tools</h3>
+            <p class="course-instructor">Nico Alvarez</p>
+            <p class="course-rating">⭐ 4.8</p>
+            <p class="course-price">$54</p>
+            <button type="button">Enroll</button>
+          </article>
+        </div>
+      </section>
+
+      <!-- Statistics -->
+      <section class="section stats-section">
+        <div class="section-heading">
+          <p class="eyebrow">Statistics</p>
+          <h2>Trusted by learners around the world</h2>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-item">
+            <strong>120K+</strong>
+            <span>Students</span>
+          </div>
+          <div class="stat-item">
+            <strong>300+</strong>
+            <span>Courses</span>
+          </div>
+          <div class="stat-item">
+            <strong>85+</strong>
+            <span>Instructors</span>
+          </div>
+          <div class="stat-item">
+            <strong>92%</strong>
+            <span>Completion Rate</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Testimonials</p>
+          <h2>What learners are saying</h2>
+        </div>
+        <div class="testimonial-list">
+          <article class="testimonial-card">
+            <p>“The personalized lessons helped me improve my skills faster than I expected.”</p>
+            <h3>Emily R.</h3>
+          </article>
+          <article class="testimonial-card">
+            <p>“The AI feedback feels like having a tutor available at any time.”</p>
+            <h3>Marcus T.</h3>
+          </article>
+          <article class="testimonial-card">
+            <p>“I love the blend of theory, practice, and community support.”</p>
+            <h3>Jules P.</h3>
+          </article>
+          <article class="testimonial-card">
+            <p>“Our team launched a new training program in weeks, not months.”</p>
+            <h3>Priya S.</h3>
+          </article>
+        </div>
+        <div class="testimonial-controls">
+          <button type="button" aria-label="Show previous testimonial">Previous</button>
+          <button type="button" aria-label="Show next testimonial">Next</button>
+        </div>
+      </section>
+
+      <!-- Pricing -->
+      <section id="pricing" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Pricing</p>
+          <h2>Simple plans for every learning journey</h2>
+        </div>
+        <div class="pricing-grid">
+          <article class="pricing-card">
+            <h3>Basic</h3>
+            <p class="price">$19<span>/mo</span></p>
+            <ul>
+              <li>Access to core courses</li>
+              <li>Weekly progress reports</li>
+              <li>Community forum</li>
+            </ul>
+            <button type="button">Choose Basic</button>
+          </article>
+          <article class="pricing-card featured">
+            <h3>Pro</h3>
+            <p class="price">$49<span>/mo</span></p>
+            <ul>
+              <li>Everything in Basic</li>
+              <li>AI coaching</li>
+              <li>Premium projects</li>
+            </ul>
+            <button type="button">Choose Pro</button>
+          </article>
+          <article class="pricing-card">
+            <h3>Enterprise</h3>
+            <p class="price">Custom</p>
+            <ul>
+              <li>Team dashboards</li>
+              <li>Dedicated onboarding</li>
+              <li>SSO and security controls</li>
+            </ul>
+            <button type="button">Contact Sales</button>
+          </article>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">FAQ</p>
+          <h2>Frequently asked questions</h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>How does LearnSphere AI personalize content?</summary>
+            <p>It analyzes your progress and recommends lessons based on your goals and performance.</p>
+          </details>
+          <details>
+            <summary>Can I use it on mobile?</summary>
+            <p>Yes, the platform is designed to work smoothly across phones, tablets, and desktops.</p>
+          </details>
+          <details>
+            <summary>Do you offer certificates?</summary>
+            <p>Many courses include completion certificates and skill badges.</p>
+          </details>
+          <details>
+            <summary>Is there a free trial?</summary>
+            <p>Yes, new users can explore a selection of courses during a free trial period.</p>
+          </details>
+          <details>
+            <summary>Can teams manage multiple learners?</summary>
+            <p>Enterprise plans include team-level oversight, onboarding, and admin controls.</p>
+          </details>
+          <details>
+            <summary>How quickly can I get started?</summary>
+            <p>You can sign up and start learning in minutes with a simple onboarding flow.</p>
+          </details>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section contact-section">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Get in touch with our team</h2>
+        </div>
+        <form class="contact-form">
+          <label for="contact-name">Name</label>
+          <input id="contact-name" type="text" name="name" autocomplete="name" required />
+
+          <label for="contact-email">Email</label>
+          <input id="contact-email" type="email" name="email" autocomplete="email" required />
+
+          <label for="contact-phone">Phone</label>
+          <input id="contact-phone" type="tel" name="phone" autocomplete="tel" />
+
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+      <!-- Newsletter -->
+      <section class="section newsletter-section">
+        <h2>Stay inspired with weekly learning tips</h2>
+        <p>Join our newsletter for new course drops, AI insights, and growth strategies.</p>
+        <form class="newsletter-form">
+          <label class="visually-hidden" for="newsletter-email">Email address</label>
+          <input id="newsletter-email" type="email" name="newsletter-email" placeholder="Enter your email" autocomplete="email" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </section>
     </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div>
+        <h3>LearnSphere AI</h3>
+        <p>AI-powered learning that helps you grow with confidence.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Social</h4>
+        <ul>
+          <li><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+          <li><a href="https://x.com/" target="_blank" rel="noreferrer">Twitter</a></li>
+          <li><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a></li>
+        </ul>
+      </div>
+      <p class="copyright">© 2026 LearnSphere AI. All rights reserved.</p>
+    </footer>
   </body>
 </html>
